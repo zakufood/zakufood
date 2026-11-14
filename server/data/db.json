@@ -1,0 +1,966 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products",
+      "slug": "all"
+    },
+    {
+      "id": "whole-spices",
+      "name": "Whole Spices",
+      "slug": "whole-spices"
+    },
+    {
+      "id": "spice-mixes",
+      "name": "Spice Mixes",
+      "slug": "spice-mixes"
+    },
+    {
+      "id": "seasonings",
+      "name": "Seasonings",
+      "slug": "seasonings"
+    }
+  ],
+  "products": [
+    {
+      "id": "zaku-prod-1",
+      "name": "Regular Spice",
+      "slug": "whole-spices-90gm",
+      "category": "whole-spices",
+      "categoryName": "Whole Spices",
+      "weight": "90 gm",
+      "price": 299,
+      "image": "/assets/prod_whole_spices.jpg",
+      "shortDescription": "ZAKU Whole Spices blend with authentic handpicked whole aromatic spices.",
+      "description": "ZAKU Whole Spices is an exquisite blend of unbroken, sun-dried, premium spices chosen for their intense aroma, natural essential oils, and traditional freshness. Ideal for everyday cooking, aromatic curries, and traditional stews.",
+      "ingredients": [
+        "জিরা",
+        "দারুচিনি",
+        "সবুজ এলাচ",
+        "লবঙ্গ",
+        "তেজপাতা",
+        "গোলমরিচ",
+        "ধনিয়া"
+      ],
+      "inStock": true,
+      "stockQuantity": 33,
+      "isFeatured": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "zaku-prod-2",
+      "name": "Signature Spice",
+      "slug": "shahi-spice-mix-140gm",
+      "category": "spice-mixes",
+      "categoryName": "Spice Mixes",
+      "weight": "140 gm",
+      "price": 499,
+      "image": "/assets/prod_shahi_spice_mix.jpg",
+      "shortDescription": "Signature Shahi Spice Mix crafted with premium royal ingredients.",
+      "description": "Crafted for connoisseurs of authentic flavors, ZAKU Shahi Spice Mix combines aromatic royal cardamom, mace, shahi jeera, and toasted spices. Imparts an irresistible aroma and rich flavor to roast, korma, and traditional curries.",
+      "ingredients": [
+        "জিরা",
+        "দারুচিনি",
+        "সবুজ এলাচ",
+        "লবঙ্গ",
+        "তেজপাতা",
+        "কালো গোলমরিচ",
+        "ধনিয়া",
+        "শাহী জিরা",
+        "কালো এলাচ",
+        "জয়ত্রী",
+        "জয়ফল",
+        "কাবাব চিনি",
+        "স্টার আনিস",
+        "সাদা গোলমরিচ"
+      ],
+      "inStock": true,
+      "stockQuantity": 25,
+      "isFeatured": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "zaku-prod-3",
+      "name": "Turmeric (Holud) Powder",
+      "slug": "turmeric-holud-powder-250gm",
+      "category": "whole-spices",
+      "categoryName": "Whole Spices",
+      "weight": "250 gm",
+      "price": 190,
+      "image": "/assets/prod_turmeric_powder.jpg",
+      "shortDescription": "100% natural pure turmeric powder with deep golden color and rich aroma.",
+      "description": "ZAKU Turmeric (Holud) Powder is made from high-curcumin heirloom turmeric rhizomes. Carefully sun-dried, polished, and hygienically powdered to preserve natural purity, vibrant color, and traditional culinary excellence.",
+      "ingredients": [
+        "100% Pure Natural Turmeric"
+      ],
+      "inStock": true,
+      "stockQuantity": 30,
+      "isFeatured": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "zaku-prod-4",
+      "name": "Red Chili Powder",
+      "slug": "red-chili-powder-250gm",
+      "category": "whole-spices",
+      "categoryName": "Whole Spices",
+      "weight": "250 gm",
+      "price": 210,
+      "image": "/assets/prod_chilli_powder.jpg",
+      "shortDescription": "Pure vibrant red chili powder ground from handpicked sun-dried chilies.",
+      "description": "ZAKU Red Chili Powder delivers the authentic pungent heat and rich natural color required for traditional Bangladeshi cuisine. Free from synthetic colorants or adulteration.",
+      "ingredients": [
+        "100% Pure Sun-Dried Red Chilies"
+      ],
+      "inStock": true,
+      "stockQuantity": 40,
+      "isFeatured": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "zaku-prod-5",
+      "name": "Peri Peri Masala",
+      "slug": "peri-peri-spice-mix-100gm",
+      "category": "spice-mixes",
+      "categoryName": "Spice Mixes",
+      "secondaryCategory": "seasonings",
+      "weight": "100 gm",
+      "price": 199,
+      "image": "/assets/prod_peri_peri_spice_mix.jpg",
+      "shortDescription": "Bold & Spicy Peri Peri spice blend for marinating, coating & seasoning.",
+      "description": "Turn your everyday fries, grilled chicken, and snacks into an irresistible flavor sensation. ZAKU Peri Peri Spice Mix delivers the perfect balance of fiery chili heat, zesty citrus notes, aromatic garlic, and savory sea salt.",
+      "ingredients": [
+        "পাপরিকা",
+        "রসুন গুঁড়া",
+        "পেঁয়াজ গুঁড়া",
+        "কাশ্মীরি লাল মরিচ গুঁড়া",
+        "অরিগানো",
+        "চিলি ফ্লেক্স",
+        "গোলমরিচ গুঁড়া",
+        "লবণ",
+        "চিনি",
+        "সাইট্রিক এসিড",
+        "MSG ও মিক্সড হার্বস"
+      ],
+      "inStock": true,
+      "stockQuantity": 60,
+      "isFeatured": true,
+      "sortOrder": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": "ZAKU-2026-4562",
+      "createdAt": "2026-11-14T14:51:07.938Z",
+      "customer": {
+        "name": "Rohit Mehra",
+        "phone": "01965624971",
+        "address": "IND,0062",
+        "district": "Dhaka",
+        "note": ""
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 1,
+          "image": "/assets/prod_shahi_spice_mix.jpg",
+          "total": 499
+        }
+      ],
+      "subtotal": 499,
+      "deliveryFee": 60,
+      "grandTotal": 559,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T14:51:07.938Z",
+          "note": "Order successfully received & waiting for processing"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-1725",
+      "createdAt": "2026-11-14T14:21:37.065Z",
+      "customer": {
+        "name": "Rohit Mehra",
+        "phone": "01965624971",
+        "address": "IND,0062",
+        "district": "Dhaka",
+        "note": ""
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 2,
+          "image": "/assets/prod_shahi_spice_mix.jpg",
+          "total": 998
+        },
+        {
+          "productId": "zaku-prod-3",
+          "name": "Turmeric (Holud) Powder",
+          "weight": "250 gm",
+          "price": 190,
+          "quantity": 12,
+          "image": "/assets/prod_turmeric_powder.jpg",
+          "total": 2280
+        }
+      ],
+      "subtotal": 3278,
+      "deliveryFee": 60,
+      "grandTotal": 3338,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T14:21:37.065Z",
+          "note": "Order successfully received & waiting for processing"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-8141",
+      "createdAt": "2026-11-14T14:01:54.603Z",
+      "customer": {
+        "name": "Rohit Mehra",
+        "phone": "01965624971",
+        "address": "IND,0062",
+        "district": "Dhaka",
+        "note": ""
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-3",
+          "name": "Turmeric (Holud) Powder",
+          "weight": "250 gm",
+          "price": 190,
+          "quantity": 7,
+          "image": "/assets/prod_turmeric_powder.jpg",
+          "total": 1330
+        },
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 2,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 598
+        },
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 2,
+          "image": "/assets/prod_shahi_spice_mix.jpg",
+          "total": 998
+        }
+      ],
+      "subtotal": 2926,
+      "deliveryFee": 60,
+      "grandTotal": 2986,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T14:01:54.603Z",
+          "note": "Order successfully received & waiting for processing"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-3592",
+      "createdAt": "2026-11-14T12:17:48.876Z",
+      "customer": {
+        "name": "Rohit Mehra",
+        "phone": "01965624971",
+        "address": "IND,0062",
+        "district": "Dhaka",
+        "note": ""
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 2,
+          "image": "/assets/prod_shahi_spice_mix.jpg",
+          "total": 998
+        },
+        {
+          "productId": "zaku-prod-3",
+          "name": "Turmeric (Holud) Powder",
+          "weight": "250 gm",
+          "price": 190,
+          "quantity": 1,
+          "image": "/assets/prod_turmeric_powder.jpg",
+          "total": 190
+        }
+      ],
+      "subtotal": 1188,
+      "deliveryFee": 60,
+      "grandTotal": 1248,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T12:17:48.876Z",
+          "note": "Order successfully received & waiting for processing"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-6151",
+      "createdAt": "2026-11-14T11:24:53.241Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T11:24:53.241Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-14T11:24:53.251Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-9730",
+      "createdAt": "2026-11-14T07:32:48.461Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-14T07:32:48.461Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-14T07:32:48.467Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-6549",
+      "createdAt": "2026-11-13T12:08:47.844Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-13T12:08:47.844Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-13T12:08:47.850Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-3953",
+      "createdAt": "2026-11-13T05:03:07.817Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-13T05:03:07.817Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-13T05:03:07.826Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-9292",
+      "createdAt": "2026-11-13T04:47:21.143Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-13T04:47:21.143Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-13T04:47:21.148Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-8419",
+      "createdAt": "2026-11-13T04:34:59.369Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-13T04:34:59.369Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-13T04:34:59.377Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-3952",
+      "createdAt": "2026-11-13T03:58:29.184Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-13T03:58:29.184Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-13T03:58:29.190Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-6497",
+      "createdAt": "2026-11-12T04:52:30.595Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-12T04:52:30.595Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-12T04:52:30.600Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-1710",
+      "createdAt": "2026-11-10T16:53:44.245Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-10T16:53:44.245Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-10T16:53:44.254Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-1080",
+      "createdAt": "2026-11-10T16:28:28.016Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-10T16:28:28.016Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-10T16:28:28.026Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-6254",
+      "createdAt": "2026-11-09T23:54:45.067Z",
+      "customer": {
+        "name": "Tanvir Ahmed",
+        "phone": "01811223344",
+        "address": "Road 5, Block B, Bashundhara R/A, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile jars"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 1,
+          "image": "/assets/prod_whole_spices.jpg",
+          "total": 299
+        }
+      ],
+      "subtotal": 299,
+      "deliveryFee": 60,
+      "grandTotal": 359,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-09T23:54:45.067Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-09T23:54:45.076Z",
+          "note": "Package handed over"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-3443",
+      "createdAt": "2026-11-09T23:24:26.932Z",
+      "customer": {
+        "name": "Shamim Hossain",
+        "phone": "01711223344",
+        "address": "House 42, Road 7, Banani, Dhaka",
+        "district": "Dhaka",
+        "note": "Please deliver between 4 PM and 7 PM."
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 2,
+          "image": "/assets/whole_spices_jar.png",
+          "total": 598
+        },
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 1,
+          "image": "/assets/shahi_spice_mix_jar.png",
+          "total": 499
+        }
+      ],
+      "subtotal": 1097,
+      "deliveryFee": 60,
+      "grandTotal": 1157,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Shipped",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-09T23:24:26.932Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-11-09T23:24:26.948Z",
+          "note": "Customer called and order verified"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-11-09T23:24:26.956Z",
+          "note": "Jars packed at Narayanganj facility"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-11-09T23:24:26.961Z",
+          "note": "Handed to express delivery courier"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-9958",
+      "createdAt": "2026-11-09T23:14:36.700Z",
+      "customer": {
+        "name": "Test Customer",
+        "phone": "01700000000",
+        "address": "Test House 1, Dhanmondi",
+        "district": "Dhaka",
+        "note": "Please deliver fast"
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 2,
+          "total": 598
+        }
+      ],
+      "subtotal": 598,
+      "deliveryFee": 60,
+      "grandTotal": 658,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Processing",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-09T23:14:36.700Z",
+          "note": "Order successfully received & waiting for processing"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-11-09T23:14:36.710Z",
+          "note": "Order packaged"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-1001",
+      "createdAt": "2026-11-09T14:30:00.000Z",
+      "customer": {
+        "name": "Rafiqul Islam",
+        "phone": "01712345678",
+        "address": "House 14, Road 5, Dhanmondi, Dhaka",
+        "district": "Dhaka",
+        "note": "Please deliver after 4 PM."
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-1",
+          "name": "Whole Spices",
+          "weight": "90 gm",
+          "price": 299,
+          "quantity": 2,
+          "image": "/assets/whole_spices_jar.png",
+          "total": 598
+        },
+        {
+          "productId": "zaku-prod-2",
+          "name": "Shahi Spice Mix",
+          "weight": "140 gm",
+          "price": 499,
+          "quantity": 1,
+          "image": "/assets/shahi_spice_mix_jar.png",
+          "total": 499
+        }
+      ],
+      "subtotal": 1097,
+      "deliveryFee": 60,
+      "grandTotal": 1157,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-09T14:30:00.000Z",
+          "note": "Order placed by customer"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-11-09T15:10:00.000Z",
+          "note": "Order confirmed by store manager"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-11-09T16:00:00.000Z",
+          "note": "Packaged with fresh batch spices"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-11-09T17:30:00.000Z",
+          "note": "Handed to Dhaka express courier"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-11-09T20:15:00.000Z",
+          "note": "Successfully delivered to customer"
+        }
+      ]
+    },
+    {
+      "id": "ZAKU-2026-1002",
+      "createdAt": "2026-11-10T02:15:00.000Z",
+      "customer": {
+        "name": "Tahmina Sultana",
+        "phone": "01898765432",
+        "address": "Flat 4B, Sector 7, Uttara, Dhaka",
+        "district": "Dhaka",
+        "note": "Fragile glass jars, please handle with care."
+      },
+      "items": [
+        {
+          "productId": "zaku-prod-3",
+          "name": "Peri Peri Spice Mix",
+          "weight": "100 gm",
+          "price": 199,
+          "quantity": 2,
+          "image": "/assets/peri_peri_spice_mix_jar.png",
+          "total": 398
+        },
+        {
+          "productId": "zaku-prod-4",
+          "name": "Chicken Fry Seasoning",
+          "weight": "100 gm",
+          "price": 199,
+          "quantity": 2,
+          "image": "/assets/chicken_fry_seasoning_jar.png",
+          "total": 398
+        }
+      ],
+      "subtotal": 796,
+      "deliveryFee": 60,
+      "grandTotal": 856,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Processing",
+      "timeline": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-11-10T02:15:00.000Z",
+          "note": "Order placed by customer"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-11-10T03:00:00.000Z",
+          "note": "Verified by call"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-11-10T03:45:00.000Z",
+          "note": "Under packaging at Narayanganj facility"
+        }
+      ]
+    }
+  ]
+}

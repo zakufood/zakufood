@@ -1,0 +1,12 @@
+node_modules/
+client/dist/
+server/dist/
+client/build/
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp

@@ -1,0 +1,12 @@
+{
+  "name": "zaku-spice-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js"
+  }
+}
+
