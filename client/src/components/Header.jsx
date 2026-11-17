@@ -72,14 +72,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 shadow-xs font-sans">
       {/* ================= 1. TOP HEADER (Light Warm Cream #FFFDF8) ================= */}
       <div className="bg-[#FFFDF8] border-b border-[#F0EBE1]">
-        <div className="max-w-[1536px] mx-auto px-3 sm:px-6 lg:px-8 h-16 sm:h-20 md:h-22 flex items-center justify-between gap-3 sm:gap-6">
+        <div className="max-w-[1536px] mx-auto px-3 sm:px-6 lg:px-8 h-12 sm:h-14 md:h-16 flex items-center justify-between gap-3 sm:gap-6">
           
           {/* Left: Premium Horizontal Z Symbol + ZAKU Wordmark in Gangster of Three Font */}
           <Link to="/" className="flex items-center gap-2 sm:gap-2.5 md:gap-3 shrink-0 group py-1" aria-label="ZAKU Homepage">
             <img
               src="/assets/zaku_symbol_maroon.png"
               alt="ZAKU Symbol"
-              className="h-7 sm:h-9 md:h-11 lg:h-12 w-auto object-contain block transition-transform group-hover:scale-[1.02]"
+              className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto object-contain block transition-transform group-hover:scale-[1.02]"
             />
             <span className="font-zaku text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-normal text-[#7A1F1F] tracking-wide select-none leading-none pt-1 transition-transform group-hover:scale-[1.02]">
               ZAKU
